@@ -1,0 +1,75 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+%\RequirePackage{a4wide}
+\usepackage[dutch]{babel}
+\usepackage{xstring}
+\usepackage{xcolor}
+\definecolor{greycolour}{HTML}{525252}
+\definecolor{sharelatexcolour}{HTML}{882B21}
+\definecolor{mybluecolour}{HTML}{394773}
+\newcommand{\wordcolour}{greycolour}
+
+\usepackage[style=ieee, backend=biber]{biblatex}
+\addbibresource{./bib.bib}
+%\RequirePackage[style=numeric]{biblatex}
+\usepackage{amsmath} 
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{csquotes}
+\usepackage{pdfpages}
+
+\RequirePackage{parskip}% http://ctan.org/pkg/parskip
+% https://tex.stackexchange.com/questions/55015/how-to-remove-indentation-for-all-paragraphs
+
+\RequirePackage{fancyhdr}
+
+\fancyhf{}
+\rfoot{}
+\lfoot{Honours Program}
+
+\pagestyle{fancy}
+
+\RequirePackage[official]{eurosym}  % euro teken
+\RequirePackage{subcaption}         % 2 pics
+\RequirePackage{booktabs}           % for better tables
+\bibliography{./bib.bib}
+
+\title{\Large \textbf{Ontwikkel Omgeving}\\ Operating Systems Praktijk \\ \large Week 1}
+\author{}
+\date{\today}
+
+\begin{document}
+	\textbf{Contact information}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{l c c}
+			Timothy van der Steenhoven & 522397 & 522397@student.inholland.nl\\
+			Saskia van der Velden & 615128 & 615128@student.inholland.nl\\
+			Emmanuel Bakare & 616491 & 616491@student.inholland.nl\\
+		\end{tabular}
+	\end{table}
+
+
+\textbf{Problem Definition}\\
+At the beginning of this project de Alliantie, the housing corporation that is executing the renovation, has already calculated the transportation costs of the materials. De Alliantie does not see an affordable business case at the moment.\\
+
+In a renovation of around 60.000 appartments in Amsterdam, our team is asked to face the challenge of improving comfort, air quality and reducing emissions by re-using building materials.\\
+
+De Alliantie expects creativity, entrepeneurship and correct collaborations to create a circular business model that is applicable to the 60.000 houses.
+
+\textbf{Project Goal}\\
+The goals of the project is: \\
+\blockquote{\textit{To create a circular business model that is financial and practical feasible for the refurbishment of kitchens, bathrooms and toilets of the housing renovation of de Alliantie.}}
+
+\textbf{Research questions}\\
+Q1: What is the current state of the circular business model within de Alliantie?
+Q2: How can the expected materials/equipment be integrated into the circular business model?
+Q3: Which (new) techniques should be introduced to de Alliantie to improve the feasibility of the circular business model?
+Q4: How is the team going tackle the calculated transportation costs?
+
+\textbf{Notes:}\\
+These research questions are subject to change, but only in consultation with de Alliantie and the team-coach.
+
+Prior to this assignment we have contacted de Alliantie for a first appointment. In this appointment the current state of the project will be analysed.
+\end{document}

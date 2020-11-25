@@ -1,0 +1,10 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Expert session 26/03/2020}{3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}(Re)Design}{3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Production process}{3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Finances}{3}%
