@@ -1,0 +1,128 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}  % gebruik de juiste 'character encoding'
+\usepackage[english]{babel}    % definitie van de taal (Engels is de standaard)
+\usepackage{hyperref}        % geef URLs netjes weer
+\usepackage{a4wide}          % papierformaat en marges
+\usepackage{graphicx} 		 % Invoegen van plaatjes , ref: https://nl.sharelatex.com/learn/Inserting_Images
+\usepackage[european]{circuitikz}      % tekenen van elektrische schema's
+\usepackage{float} 			% MIJN VERSLAG
+\usepackage{tikz} 			 % Toevoegen van opmaak elementen aan circuitikz
+\usepackage{amsmath}    		% https://tex.stackexchange.com/questions/196/eqnarray-vs-align voor het boven elkaar zetten van sommen.
+\usepackage{pdfpages}		% invoegen pdf
+\usepackage{gensymb} 		% invoegen Ohm
+\usepackage{array}
+\usepackage{titlesec} 		% fancy sections
+%Pagina stijl en bronmap
+\graphicspath{ {image/} }   % zet het pad voor de plaatjes
+\pagestyle{plain}           % zet alleen paginanummering aan\\
+
+%titels instellen
+\newcommand{\sectionfont}{\Large\bfseries}
+
+\titleformat{\section}
+{\titlerule     
+	\vspace{0.5ex}%
+	\sectionfont}
+{\thesection}{1em}
+{\sectionfont}[\titlerule]
+
+
+\title{\huge Curriculum Vitae}
+
+\begin{document}
+	\thispagestyle{plain}
+	\maketitle
+	
+	\section*{Personalia}
+	\begin{table}[H]
+		\begin{tabular}{l c l}
+			\textbf{Last Name} & : & Steenhoven, van der \\
+			\textbf{First Name}& : & Timothy Wietze Leopold\\
+			\textbf{Address}& : & Houtsniplaan 25 \\
+			&& 1873 JT Groet \\
+			\textbf{Telephone}& : & +31 6 4973 9096 \\
+			\textbf{Email}& : & T.Steenhoven@hotmail.nl\\
+			\textbf{Nationality}& : & Dutch\\
+			\textbf{Date of Birth}& : & 8\textsuperscript{th} of August 1995\\
+			&&\\
+		\end{tabular}
+	\end{table}
+	
+	\section*{Education}
+	
+	\begin{table}[H]
+		\begin{tabular}{l c l}
+		 Sept 2017 - Now & : & 	Bachelor computer engineering \\ 
+		&&of applied computer science\\
+		&&\textbf{Propaedeutics achieved in the first year.}\\
+		&&\\
+		Sept 2012 - Dec 2015	&:&Bachelor of Nursing \\
+		&&\textbf{Propaedeutics achieved in the first year.}\\
+		&&\\
+		Sept 2009 - Sept 2012 &:& HAVO \\
+		&&\\
+		Sept 2008 - Sept 2009 &:& Atheneum \\
+		&&\\
+		Sept 2007 - Sept 2008 &:& Gymnasium \\
+		&&\\
+		\end{tabular}
+	\end{table}
+	
+	\section*{Work Experience}
+		\begin{table}[H]
+			\begin{tabular}{l c l}
+			July 2018 - Nov 2018 	&:&  \textbf{Koninklijke Vezet} \small via employment agency Tempo Team \\
+			&& \textit{Operator}\\
+			&&\\
+			May 2016 - August 2017 &: & \textbf{Koninklijke Vezet} \\
+			&&\textit{Operator}\\
+			&&\\
+			Dec 2015 - May 2016 &: &\textbf{Koninklijke Vezet} \small via employment agency Tempo Team \\	
+			&&\textit{Production Assistant}\\
+			&&\\
+			Feb 2017 - July 2017 &:&\textbf{Studiemeester}\\
+			&& Homework Tutor \\
+			&&\\
+			Sept 2016 - Feb 2017&:&\textbf{Saturn Holding}\\
+			&& Mediamarkt Alkmaar \\
+			&&\\
+			
+			
+			\end{tabular}
+		\end{table}
+	
+	
+	\section*{Courses / Skills / Languages}
+	\subsection*{Languages}
+		\begin{tabular}{l c l}
+	Dutch	&:& Native language\\
+	English &:& Good, conversation, reading and writing\\	
+		\end{tabular}
+
+	
+	\subsection*{Technical Skills}
+	    \begin{tabular}{l c l c l}
+	    Computer & | & Office &: & \LaTeX (good)\\
+	    &&&&MS Word (basic)\\
+	    &&&&MS Powerpoint (good)\\
+	    &|&Languages&:& C (basic)\\
+	    &&&&C\# (basic)\\
+	    &&&&SQL (basic)\\
+	    Electronics & | & Practical & : & Soldering (ok)\\
+	    &&&& Electronics physics (basic) \\	
+		\end{tabular}
+	
+	\subsection*{Courses}
+		\begin{tabular}{l c l}
+			2013 - Now	&:& First Aid \\
+			2013 - 2017 &:& Emergency Response Course\\
+			
+		\end{tabular}
+	
+	\section*{Sports and interests}
+	In my spare time I like to tinker with broken or unused electronics and sometimes play a video game with my fellow students.
+	
+	
+	
+	
+\end{document}
